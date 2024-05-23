@@ -12,7 +12,7 @@ export const GET = withWorkspace(async ({ workspace }) => {
     },
     select: {
       leggfiio: true,
-      chatgpt: true,
+      chatgpt: false,
       sptifi: true,
       gitnew: true,
       amznid: true,
