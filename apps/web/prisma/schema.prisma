@@ -135,7 +135,7 @@ model ProjectInvite {
 
 model DefaultDomains {
   id          String  @id @default(cuid())
-  dubsh       Boolean @default(true)
+  iome        Boolean @default(true)
   chatgpt     Boolean @default(true)
   sptifi      Boolean @default(true)
   gitnew      Boolean @default(true)
@@ -178,7 +178,7 @@ model Domain {
   id          String   @id @default(cuid())
   slug        String   @unique
   verified    Boolean  @default(false)
-  placeholder String   @default("https://dub.co/help/article/what-is-dub")
+  placeholder String   @default("https://link.eggfi.io")
   description String?
   primary     Boolean  @default(false)
   archived    Boolean  @default(false)
