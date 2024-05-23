@@ -6,7 +6,7 @@ import z from "@/lib/zod";
 import { waitUntil } from "@vercel/functions";
 import { AnthropicStream, StreamingTextResponse } from "ai";
 
-export const runtime = "edge";
+// export const runtime = "edge";
 
 const completionSchema = z.object({
   prompt: z.string(),
